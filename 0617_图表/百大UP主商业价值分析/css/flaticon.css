@@ -1,0 +1,45 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 10/05/2020 06:14
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/Flaticon.eot");
+  src: url("../fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/Flaticon.woff2") format("woff2"),
+       url("../fonts/Flaticon.woff") format("woff"),
+       url("../fonts/Flaticon.ttf") format("truetype"),
+       url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+  font-family: Flaticon;
+  font-style: normal;
+}
+
+.flaticon-online-course:before { content: "\f100"; }
+.flaticon-training:before { content: "\f101"; }
+.flaticon-play-arrow:before { content: "\f102"; }
+.flaticon-measure:before { content: "\f103"; }
+.flaticon-university:before { content: "\f104"; }
+.flaticon-pencil:before { content: "\f105"; }
+.flaticon-controls:before { content: "\f106"; }
+.flaticon-study:before { content: "\f107"; }
+.flaticon-translate:before { content: "\f108"; }
+.flaticon-angle:before { content: "\f109"; }
+.flaticon-set-square:before { content: "\f10a"; }
+.flaticon-sigma:before { content: "\f10b"; }
+.flaticon-quill:before { content: "\f10c"; }
+.flaticon-play:before { content: "\f10d"; }
+.flaticon-volume:before { content: "\f10e"; }
